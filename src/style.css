@@ -1,26 +1,103 @@
-
-
-
-
-
-
-
-
-
-
-
-
-body { 
-margin: 0;
+body {
+    background-color: blueviolet       
 }
+img {
+    width: 400px;
+    height: 400px;
+    position: left;
+    margin-left: 100px;
 
-#container {
-    width: 100vw; /* view width */
-    height: 100vh; /* view height */
-    background-color: blueviolet;
-     
+
 }
+h1 {
+    text-align: center;
+    color: orange;
+    font: normal 50px stencil std, fantasy;
+    font-variant: small-caps;
+      text-shadow: 
+      -1px -1px 0px rgb(25, 12, 48), 
+      -1px 1px 0px rgb(47, 21, 77),                    
+       1px -1px 0px rgb(36, 19, 77),                  
+       1px 0px 0px rgb(39, 16, 75)
+  }
+h2 {
+    text-align: center;
+    color: orange;
+    font: normal 20px verdana;
+    font-weight: bold;
+    text-shadow: 
+    -1px -1px 0px rgb(25, 12, 48), 
+    -1px 1px 0px rgb(47, 21, 77),                    
+     1px -1px 0px rgb(36, 19, 77),                  
+     1px 0px 0px rgb(39, 16, 75)
+}
+h3 {
+    text-align: center;
+    color: whitesmoke;
+    font: normal 18px verdana;
+    font-weight: bold;
+    text-shadow: 
+    -1px -1px 0px rgb(25, 12, 48), 
+    -1px 1px 0px rgb(47, 21, 77),                    
+     1px -1px 0px rgb(36, 19, 77),                  
+     1px 0px 0px rgb(39, 16, 75)
     
+}
+#centralizar {
+  text-align: center;
+}
+button {
+  font: normal 20px verdana;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: orange;
+  border: blue;
+  height: 60px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  cursor: pointer;
+}
+h4 {
+  text-align: right;
+  position: absolute;
+  top: 300px;
+  right: 170px;
+  color: orange;
+  font: normal 18px verdana;
+  font-weight: bold;
+  
+}
+p {
+  text-align: right;
+  position: absolute;
+  top: 350px;
+  right: 140px;
+  color: whitesmoke;
+  font: normal 15px verdana;
+  font-weight: bold;
+}
+h5 {
+  text-align: center;
+    color: whitesmoke;
+    font: normal 18px verdana;
+    font-weight: bold;
+      text-shadow: 
+      -1px -1px 0px rgb(25, 12, 48), 
+      -1px 1px 0px rgb(47, 21, 77),                    
+       1px -1px 0px rgb(36, 19, 77),                  
+       1px 0px 0px rgb(39, 16, 75)
+}
+
+       
+
+    
+
+
+    
+        
+        
 
 
     
