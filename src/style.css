@@ -5,9 +5,10 @@ img {
     width: 400px;
     height: 400px;
     position: left;
-    margin-left: 100px;
-
-
+    margin-left: 180px;
+}
+.container {
+  display: flex;
 }
 h1 {
     text-align: center;
@@ -40,44 +41,31 @@ h3 {
     -1px -1px 0px rgb(25, 12, 48), 
     -1px 1px 0px rgb(47, 21, 77),                    
      1px -1px 0px rgb(36, 19, 77),                  
-     1px 0px 0px rgb(39, 16, 75)
-    
-}
-#centralizar {
-  text-align: center;
-}
-button {
-  font: normal 20px verdana;
-  color: whitesmoke;
-  font-weight: bold;
-  background-color: orange;
-  border: blue;
-  height: 60px;
-  line-height: 30px;
-  padding: 0 20px;
-  text-transform: uppercase;
-  border-radius: 30px;
-  cursor: pointer;
+     1px 0px 0px rgb(39, 16, 75)   
 }
 h4 {
-  text-align: right;
-  position: absolute;
-  top: 300px;
-  right: 170px;
+  text-align: center;
   color: orange;
   font: normal 18px verdana;
   font-weight: bold;
-  
+  margin-top: 100px;
 }
 p {
-  text-align: right;
-  position: absolute;
-  top: 350px;
-  right: 140px;
+  text-align: justify;
+  /* position: absolute; */
+  right: 200px;
   color: whitesmoke;
   font: normal 15px verdana;
   font-weight: bold;
+  line-height: 20px;
+  margin-top: 10px; 
 }
+.paragrafo {
+  width: 400px;
+  line-height: 50px; 
+  margin-left: 200px;
+}
+
 h5 {
   text-align: center;
     color: whitesmoke;
@@ -89,8 +77,41 @@ h5 {
        1px -1px 0px rgb(36, 19, 77),                  
        1px 0px 0px rgb(39, 16, 75)
 }
-
-       
+input {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 600px;
+  background-color: whitesmoke;
+  height: 40px;
+  padding: 0 50px;
+  border: 10px;
+  border-radius: 30px;
+  
+}
+#message {
+  color: orange;
+  display: flex;
+  justify-content: center;
+}
+#centralizar {
+  text-align: center;
+}
+button {
+  font: normal 18px verdana;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: orange;
+  border: blue;
+  height: 40px;
+  line-height: 20px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}      
 
     
 

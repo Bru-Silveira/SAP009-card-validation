@@ -5,28 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
-    
+    <script defer src="index.js" type="module"></script>
+
    
   </head>
   <body>
-  <h1>Faster Validator</h1>
-  <h2>A validação mais rápida de cartão de crédito</h2>
-  <h3>"Mais rapidez, economia e segurança para a sua empresa"</h3>
-<img src="cartao.png" alt="cartao de credito">
-<h4>O que é o Faster Validator?</h4>
-<p>É a ferramenta mais rápida utilizada para verificar<br>
-se um número de cartão de crédito é válido e se está<br>
-formatado corretamente.<br>
-Ela possui um verificador "Luhn Algorithm" que<br>
-que garantirá que o número do cartão esteja correto<br>
-de acordo com o "Luhn Algorithm".<br>
-O Faster Validator proporcionará mais agilidade,<br>
-economia e segurança para a sua empresa.
-</p>
-<h5>Clique no botão abaixo para verificar se o cartão de crédito é válido:</h5>
-<div id="centralizar">
-  <button id="btn" onclick="funcao1()">Inserir número</button>
-</div>
+  <header><h1>Faster Validator</h1></header>
+  <main><h2>A validação mais rápida de cartão de crédito</h2>
+    <h3>"Mais rapidez, economia e segurança para a sua empresa"</h3>
+  <div class="container">
+    <div class="img"><img src="cartao.png" alt="cartao de credito"></div>
+  
+    <div class="paragrafo">
+      <h4>O que é o Faster Validator?</h4>
+      <p>É a ferramenta mais rápida utilizada para verificar
+      se um número de cartão de crédito é válido e se está
+      formatado corretamente.
+      Ela possui um verificador "Luhn Algorithm" que
+      que garantirá que o número do cartão esteja correto
+      de acordo com o "Luhn Algorithm".
+      O Faster Validator proporcionará mais rapidez,
+      economia e segurança para a sua empresa.
+      </p>
+    </div>
+  </div>
+  <h5>Insira o número do cartão de crédito no campo abaixo:</h5>
+  <section class="resposta">
+  <input type="text" id="card-number"
+      placeholder="0000 0000 0000 0000"
+      maxlength="16" pattern="[0-9]+"
+      autocomplete="off"
+      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+    
+    
+   
+  </section>
+  <p id = "message"></p>
+  <div id="centralizar">
+  <button id="btn">Validar Cartão de Crédito</button>
+  
+  </div>
+  </main>
+  
+  
+
+
+
+ 
+
+
 
 
 
@@ -35,10 +62,10 @@ economia e segurança para a sua empresa.
     
 
 
-    <header></header>
-    <main></main>
+    
+    
     <footer></footer>
-    <script src="index.js" type="module"></script>
+   
   </body>
 </html>
 
